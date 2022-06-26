@@ -1,4 +1,9 @@
 "use strict";
+let myCoords = {
+    lat: 35,
+    lon: 65
+};
+console.log(myCoords);
 var Days;
 (function (Days) {
     Days[Days["Monday"] = 1] = "Monday";
@@ -10,9 +15,12 @@ var Days;
     Days[Days["Sunday"] = 7] = "Sunday";
 })(Days || (Days = {}));
 function myDay(scheduled) {
+    console.log(scheduled);
     scheduled <= 5 ? console.log("weekday") : console.log("weekend");
 }
 myDay(Days.Saturday);
+myDay(Days.Monday);
+myDay(Days.Friday);
 // Same functionality using a switch statement and higher order function.
 function myDay1(day) {
     const days = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'];
