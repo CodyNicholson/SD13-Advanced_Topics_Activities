@@ -1,5 +1,5 @@
 {
-  "name": "tstd",
+  "name": "2-creating-typescript-delcarations_start",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,10 +7,10 @@
     "start": "node build/index.js",
     "build": "npx tsc"
   },
+  "keywords": [],
   "author": "",
-  "license": "",
+  "license": "ISC",
   "dependencies": {
-    "@types/lodash": "^4.14.175",
     "lodash": "^4.17.21",
     "typescript": "^4.7.4"
   }
